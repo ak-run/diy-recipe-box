@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/diy-recipe-box/static/css/main.073c9b0a.css",
+    "main.js": "/diy-recipe-box/static/js/main.a0da097d.js",
+    "static/js/787.c10bf537.chunk.js": "/diy-recipe-box/static/js/787.c10bf537.chunk.js",
+    "static/media/logo.svg": "/diy-recipe-box/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/diy-recipe-box/index.html",
+    "main.073c9b0a.css.map": "/diy-recipe-box/static/css/main.073c9b0a.css.map",
+    "main.a0da097d.js.map": "/diy-recipe-box/static/js/main.a0da097d.js.map",
+    "787.c10bf537.chunk.js.map": "/diy-recipe-box/static/js/787.c10bf537.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.a0da097d.js"
+  ]
+}
