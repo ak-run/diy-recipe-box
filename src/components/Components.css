@@ -43,9 +43,10 @@ a:visited {
 
 .RemoveButton,
 .RemoveButton__text {
-  text-decoration: none !important;
   color: white;
-  background-color: black;
+  background-color: rgb(89, 82, 82);
+  padding: none;
+  font-size: 17px;
 }
 
 /* Hero Banner */
@@ -166,4 +167,14 @@ video {
 .footer-info p {
   font-size: 1rem;
   margin-bottom: 0;
+}
+
+@media (max-width: 560px) {
+  .hero-content h1 {
+    font-size: 4rem;
+  }
+
+  .text-center {
+    width: 100%;
+  }
 }
