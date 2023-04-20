@@ -1,38 +1,92 @@
+/* firs set up everything to border-box sizing. 
+This is a CSS code that sets the box-sizing property to border-box for all elements, as well as for their ::before and ::after pseudo-elements.*/
+*,
+**::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: "Nunito", sans-serif;
+}
+h1 {
+  font-family: "Gochi Hand", sans-serif;
+  font-size: 3rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  font-family: "Gochi Hand", sans-serif;
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+/* .first-colour {
+        background-color: #a8e6cf;
+      }
+      .second-colour {
+        background-color: #fdffab;
+      }
+
+      .third-colour {
+        background-color: #ffd3b6;
+      }
+
+      .fourth-colour {
+        background-color: #ffaaa5;
+      } */
+
+.search-bar {
+  padding: 10px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Link {
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.LinkHeader {
+  padding: 0px;
+}
+
+.recipe-url {
+  background-color: #a8e6cf !important;
+  color: white !important;
+  border: none !important;
+}
+
+.recipe-url:hover {
+  background-color: #fdffab !important;
+  color: #a8e6cf !important;
+}
+
+.ItemInput {
+  border-radius: 5px;
+  border: 2px solid #a8e6cf;
+  padding: 5px;
+}
+
+.form-control {
+  margin-right: 10px;
+  border-radius: 5px !important;
+  border: 2px solid #a8e6cf !important;
+  padding: 5px !important;
+}
+
+.my-shopping-list {
+  font-size: 3rem;
+}
+
+.list-group {
+  padding-bottom: 25px;
 }
