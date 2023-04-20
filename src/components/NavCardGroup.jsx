@@ -68,7 +68,7 @@ class Cards extends Component {
               >
                 <Card
                 //   imgsrc={shopping}
-                  title="My meal Plan"
+                  title="Weekly meal planner"
                   body="Enter the ingredients for your next shop to create your shopping list."
                   buttontext="Create list"
                 />
