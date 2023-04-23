@@ -41,7 +41,7 @@ class Cards extends Component {
                 <Card
                 //   imgsrc={shopping}
                   title="Create a shopping list"
-                  body="Enter the ingredients for your next shop to create your shopping list."
+                  body="Export ingredients from your chosen recipes to create your shopping list."
                   buttontext="Create list"
                 />
               </Link>
@@ -55,7 +55,7 @@ class Cards extends Component {
                 <Card
                 //   imgsrc={shopping}
                   title="Add a recipe"
-                  body="Enter the ingredients for your next shop to create your shopping list."
+                  body="Add and save a recipe."
                   buttontext="Create list"
                 />
               </Link>
@@ -69,7 +69,7 @@ class Cards extends Component {
                 <Card
                 //   imgsrc={shopping}
                   title="Weekly meal planner"
-                  body="Enter the ingredients for your next shop to create your shopping list."
+                  body="Save recipes for this week and plan your shopping"
                   buttontext="Create list"
                 />
               </Link>

@@ -18,12 +18,12 @@ function App() {
           {/* <Hero /> */}
           </header>
             {/*using Routes to link between pages */}
-           <Routes>
-              <Route path="/ShoppingList" exact element={<ShoppingList />} />
-              <Route path="/RecipeFinder" exact element={<RecipeFinder />} />
+            <Routes>
+              <Route path="/ShoppingList" element={<ShoppingList />} />
+              <Route path="/RecipeFinder" element={<RecipeFinder />} />
             </Routes>
           </div>
-        <Card />
+          <Card />
         </Router>
       </div>
       <Footer/>
