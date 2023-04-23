@@ -35,6 +35,7 @@ function RecipeFinder() {
           <div className="input-group mb-3">
             <input
               type="text"
+              aria-label="search for recipes by ingredient"
               className="form-control"
               placeholder="Search for recipes..."
               value={query}

@@ -17,6 +17,7 @@ const InputText = (props) => {
       <input 
         className='ItemInput'
         type="text" 
+        aria-label='Type to add an item to your shopping list'
         placeholder="Add an Item"
         value={value} 
         onChange={e => setValue(e.target.value)}
