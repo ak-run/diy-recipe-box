@@ -1,7 +1,7 @@
 import React from "react";
 import "./Components.css";
 
-const Card = (props) => {
+export const Card = (props) => {
   return (
     <div className="card text-center">
       <div className="overflow">
@@ -17,5 +17,3 @@ const Card = (props) => {
     </div>
   );
 };
-
-export default Card;

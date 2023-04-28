@@ -1,7 +1,7 @@
 import React from "react";
 import "./Components.css";
 
-const RecipeCard = ({ recipes }) => {
+export const RecipeCard = ({ recipes }) => {
   return (
     <div>
       {recipes.length > 0 ? (
@@ -34,4 +34,3 @@ const RecipeCard = ({ recipes }) => {
     </div>
   );
 };
-export default RecipeCard;
