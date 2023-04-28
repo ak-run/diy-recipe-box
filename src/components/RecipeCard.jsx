@@ -17,9 +17,14 @@ export const RecipeCard = ({ recipes }) => {
               <p>
                 <strong>Ingredients: </strong>
                 <ul>
-                {recipe.recipe.ingredients.map((ingredient) => (
-                  <li key={ingredient.foodId}>{ingredient.text}, </li>
-                ))}
+                  {recipe.recipe.ingredients.map((ingredient) => (
+                    <li key={ingredient.foodId}>{ingredient.text}, </li>
+                  ))}
+                  <button 
+                    className="recipe-url btn btn-primary"
+                    >
+                      Add ingredients to shopping list
+                  </button>
                 </ul>
               </p>
               <p>

@@ -2,6 +2,7 @@ import React, { useState, useRef } from "react";
 import "./App.css";
 import { ListDisplay } from "./components/ListDisplay";
 import { InputText } from "./components/InputText";
+import { RecipeFinder } from "./RecipeFinder";
 
 export const ShoppingList = () => {
   const [items, setItems] = useState([]);
@@ -28,6 +29,7 @@ export const ShoppingList = () => {
           }}
         />
       </div>
+      <RecipeFinder/>
       {/* <Footer /> */}
     </>
   );
