@@ -8,12 +8,24 @@ export const RecipeCard = ({ recipes }) => {
         <ul className="list-group">
           {recipes.map((recipe, index) => (
             <li key={index} className="list-group-item">
-              <h4>{recipe.recipe.label}</h4>
+              <h2>{recipe.recipe.label}</h2>
               <img
                 src={recipe.recipe.image}
                 alt={recipe.recipe.label}
                 className="img-fluid"
               />
+              <p>
+                <strong>Ingredients: </strong>
+                <ul>
+                {recipe.recipe.ingredients.map((ingredient) => (
+                  <li key={ingredient.foodId}>{ingredient.text}, </li>
+                ))}
+                </ul>
+              </p>
+              <p>
+                <strong>Calories: </strong>
+                {Math.round(recipe.recipe.calories)} kcal
+              </p>
               <p>
                 <strong>Source: </strong>
                 {recipe.recipe.source}

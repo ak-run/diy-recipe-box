@@ -14,14 +14,14 @@ export const RecipeFinder = () => {
     event.preventDefault();
     try {
       const response = await Axios.get(
-        `https://api.edamam.com/api/recipes/v2?type=public&q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`
+        `https://api.edamam.com/api/recipes/v2?type=public&q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}&ingr=10&calories=591-722`
       );
       const data = response.data;
       setRecipes(data.hits);
     } catch (error) {
       console.error(error);
     }
-  };
+  };  
 
   return (
     <>
