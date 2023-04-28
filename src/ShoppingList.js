@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import "./App.css";
-import ListDisplay from "./components/ListDisplay";
-import InputText from "./components/InputText";
+import { ListDisplay } from "./components/ListDisplay";
+import { InputText } from "./components/InputText";
 
-function ShoppingList() {
+export const ShoppingList = () => {
   const [items, setItems] = useState([]);
 
   /* ListDisplay component receives items array and a handleClick function to delete items */
@@ -32,5 +32,3 @@ function ShoppingList() {
     </>
   );
 }
-
-export default ShoppingList;

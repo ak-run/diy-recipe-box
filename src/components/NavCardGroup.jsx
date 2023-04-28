@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Card from "./NavCards";
+import { Card } from "./NavCards";
 
 // import cooking from "../assets/cooking.jpg";
 // import shopping from "../assets/foodShopping.jpg";
@@ -12,8 +12,7 @@ function scrollToTop() {
   });
 }
 
-class Cards extends Component {
-  render() {
+export const Cards = () => {
     return (
       <>
         <div className="container-fluid d-flex justify-content-center align-items-center">
@@ -79,6 +78,5 @@ class Cards extends Component {
       </>
     );
   }
-}
 
-export default Cards;
+

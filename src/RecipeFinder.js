@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import "./App.css";
 import Axios from "axios";
-import RecipeCard from "./components/RecipeCard";
+import { RecipeCard } from "./components/RecipeCard";
 
-function RecipeFinder() {
+export const RecipeFinder = () => {
   const APP_ID = "781bce9d";
   const APP_KEY = "cf99ed83c233e411abcc308146a7e7eb";
 
@@ -53,5 +53,3 @@ function RecipeFinder() {
     </>
   );
 }
-
-export default RecipeFinder;

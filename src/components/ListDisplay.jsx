@@ -1,8 +1,8 @@
 import React from 'react';
-import ListItem from './ListItem';
+import { ListItem } from './ListItem';
 import './Components.css';
 //this is the component that displays shopping list by mapping all the items
-const ListDisplay = (props) => {
+export const ListDisplay = (props) => {
     //to display shopping list: creating an array of ListItem components by mapping over the items array and passing name and handleClick props to each component
       const items = props.items.map((item, i) => (
         <ListItem
@@ -18,5 +18,3 @@ const ListDisplay = (props) => {
     </ul>
   );
 };
-
-export default ListDisplay;

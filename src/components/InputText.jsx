@@ -1,8 +1,8 @@
 import React, { useState, useRef } from 'react';
 //component to take user input and add items to the shopping list
-const InputText = (props) => {
+export const InputText = (props) => {
   const [value, setValue] = useState('');
-  
+
   const inputRef = useRef(null);
 
   const handleSubmit = (e) => {
@@ -28,16 +28,16 @@ const InputText = (props) => {
         onChange={e => setValue(e.target.value)}
         ref={inputRef}
       />
-    </form>
+      <p></p>
     <button 
+      className="btn btn-primary"
       onClick={handleSubmit}
       value={value} 
       onChange={e => setValue(e.target.value)}
       >
       Add
       </button>
+      </form>
     </div>
   );
 };
-
-export default InputText;

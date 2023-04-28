@@ -1,11 +1,11 @@
 //to link the pages, importing from react-router-dom
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-import ShoppingList from "./ShoppingList";
-import RecipeFinder from "./RecipeFinder";
+import { ShoppingList } from "./ShoppingList";
+import { RecipeFinder } from "./RecipeFinder";
 // import Hero from "./components/heroBanner";
-import Footer from "./components/Footer";
-import Card from "./components/NavCardGroup";
+import { Footer } from "./components/Footer";
+import { Cards } from "./components/NavCardGroup";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
               <Route path="/RecipeFinder" element={<RecipeFinder />} />
             </Routes>
           </div>
-          <Card />
+          <Cards />
         </Router>
       </div>
       <Footer/>
