@@ -7,6 +7,7 @@ import { RecipeFinder } from "./RecipeFinder";
 import { Footer } from "./components/Footer";
 import { Cards } from "./components/NavCardGroup";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { AddRecipe } from "./AddRecipe";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Routes>
               <Route path="/ShoppingList" element={<ShoppingList />} />
               <Route path="/RecipeFinder" element={<RecipeFinder />} />
+              <Route path="/AddRecuoe" element={<AddRecipe />} />
             </Routes>
           </div>
           <Cards />

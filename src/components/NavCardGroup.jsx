@@ -55,7 +55,8 @@ export const Cards = () => {
                 //   imgsrc={shopping}
                   title="Add a recipe"
                   body="Add and save a recipe."
-                  buttontext="Create list"
+                  buttontext="Add a recipe"
+                  onClick={scrollToTop}
                 />
               </Link>
             </div>
